@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - DB_URI=mongodb://db:27017
+      - DB_USER=root
+      - DB_PASSWORD=123456
+      - DB_NAME=sample
+
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
