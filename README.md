@@ -8,18 +8,16 @@ Structure is module pattern.
 $ npm install
 ```
 
-## Running
-
-```bash
-$ npm start
-```
-
-After starting the server, you can visit http://localhost:3000 in your browser
-
 ## Building
 
 ```bash
 $ npm run build
+```
+
+## Running
+
+```bash
+$ npm start
 ```
 
 ## Development
@@ -32,6 +30,18 @@ $ npm run dev
 
 ```bash
 $ npm test
+```
+
+## Update version
+
+```bash
+$ npm run release
+```
+
+## Commit
+
+```bash
+$ npm run commit
 ```
 
 ## Using Docker
