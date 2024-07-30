@@ -63,7 +63,7 @@
     }
   },
   "lint-staged": {
-    "!(CHANGELOG).{js,ts,json,md,html,css}": "prettier --write",
+    "(*.{js,ts,json,html,css}|!(CHANGELOG).md)": "prettier --write",
     "*.{js,ts}": "eslint"
   }
 }
