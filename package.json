@@ -1,7 +1,7 @@
 {
-  "name": "express-mongo-typescript-template",
+  "name": "express-ts-mongo-template",
   "version": "1.0.0",
-  "description": "Express REST API template with MongoDB and TypeScript",
+  "description": "Express REST API template with TypeScript and MongoDB",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",

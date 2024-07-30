@@ -1,4 +1,4 @@
-# Express.js REST API template with MongoDB (Mongoose) and TypeScript
+# Express.js REST API template with TypeScript and MongoDB (Mongoose)
 
 Structure is module pattern.
 
