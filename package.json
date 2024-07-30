@@ -11,6 +11,7 @@
     "clean": "rimraf dist",
     "cz": "cz",
     "lint": "eslint ./src/**/*.ts",
+    "format": "prettier --write \"**/*.{js,ts,json,md,html,css}\"",
     "release": "standard-version --header=",
     "prepare": "husky"
   },
@@ -62,7 +63,7 @@
     }
   },
   "lint-staged": {
-    "!(CHANGELOG.md)": "prettier --ignore-unknown --write",
+    "!(CHANGELOG).{js,ts,json,md,html,css}": "prettier --write",
     "*.{js,ts}": "eslint"
   }
 }
